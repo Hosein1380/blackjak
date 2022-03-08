@@ -1,0 +1,77 @@
+ html,
+body {
+    height: 100vh !important;
+} 
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px black solid;
+    height: 100%; 
+}
+.board-container{
+    width: 100%;
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: 100%;
+    position: relative;
+}
+.board {
+    background-image: url("assets/images/table-background.jpg") ;
+    background-color: black;
+    box-shadow:0px 5px 10px black inset;
+    border: 3px red solid;
+    width: 600px; 
+    height: 500px;
+    color: white;
+    margin-top: 100px;
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+    font-style: italic;
+
+}
+.score-container{
+display:flex;
+position:absolute;
+bottom: 0px;
+border: 3px red solid;
+background-image: url("assets/images/table-background.jpg") ;
+width: 600px;
+height: 100px;
+font-style: italic;
+color: white;
+flex-direction: column;
+
+
+}
+#score{
+display: flex;
+justify-content: center;
+}
+
+.button-container{
+display: flex;
+flex-direction: row;
+align-items:center;
+justify-content: space-between;
+
+
+
+
+
+}
+
+.btn{
+width: 50px;
+height: 50px;
+background-color: black;
+border: 3px red solid;
+color: white;
+font-style: italic;
+}
